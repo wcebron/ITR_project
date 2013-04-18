@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="hero-unit hidden-phone">
+    <h1>
+      <span style="font-weight: normal;" class="align-center">Welcome to JuiceCo</span> 
+    </h1>
+    <p>Fresh. Delicious. Liquid. Vitality.&nbsp;From farm to bottle.&nbsp;</p>
+    <p></p>
+    <img> 
+  </div>
+  <a class="btn btn-large btn-primary btn-block visible-phone" href="#"><span class="btn-label">Sign Up Today!</span></a>
+  <div class="row main-features">
+    <div class="span4">
+      <div class="well">
+        <h3>Who we are</h3>
+        <p>We're two friend turned off by the ridiculous prices for cold-pressed
+          juice, we are striving to bring affordable juice to the masses.</p>
+        <p></p>
+        <p></p>
+        <%= link_to "Hear our story", story_path, class: "btn btn-primary" %> 
+      </div>
+    </div>
+    <div class="span4">
+      <div class="well">
+        <h3>Weekly Juice</h3>
+        <p>This week, we're spotlighting our power juice. &nbsp;Low carb,
+          low sugar and yet packed with delicious flavors. It's our new favorite
+          :).&nbsp;</p>
+        <%= link_to "Find out more", products_path, class: "btn btn-primary" %> 
+      </div>
+    </div>
+    <div class="span4">
+      <div class="well">
+        <h3>Testimonials</h3>
+        <p>"Best juice cleanse. LOVE it!"</p>
+        <p>&nbsp;- Danielle, 24</p>
+        </br>
+        <p></p>
+        <%= link_to "Get in touch", new_user_path, class: "btn btn-primary" %> 
+      </div>
+    </div>
+  </div>
+</div>

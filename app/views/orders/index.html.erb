@@ -1,0 +1,12 @@
+
+  <body>
+    <div class="container">
+      <h1>Current Orders</h1>
+    </div>
+
+  <% @orders.each do |order| %>
+  <%= order.product_type %> 
+  <% end %>
+
+  <%= link_to 'Back', orders_path %>
+ 

@@ -1,0 +1,36 @@
+
+<table>
+	<tr>
+	<%= form_for @user do |form| %>	
+	<td><%= form.label :first_name, 'First name' %></td>
+	<td><%= form.text_field :first_name %></td>
+	</tr>
+	<tr>
+	<td><%= form.label :last_name, 'Last name' %></td>
+	<td><%= form.text_field :last_name%></td>
+	</tr>
+	<tr>
+	<td><%= form.label :email, 'Email' %></td>
+	<td><%= form.text_field :email %>
+	</tr>
+	<tr>
+	<td><%= form.label :phone_number, 'Phone number' %></td>
+	<td><%= form.text_field :phone_number %></td>
+	</tr>
+	<td><%= form.label :shipping_address, 'Shipping address' %></td>
+	<td><%= form.text_field :shipping_address %></td>
+	</tr>
+	<tr>
+	<td><%= form.label :billing_address, 'Billing address' %></td>
+	<td><%= form.text_field :billing_address %></td>
+	</tr>
+	<tr>
+	<td><%= form.label :question, 'Reason for Inquiry' %></td>
+	<td><%= form.text_area :question %></td>
+	</tr>
+	<td><%= form.submit %></td>
+	</tr>
+
+<% end %>
+</table>
+</br>

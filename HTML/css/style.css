@@ -1,0 +1,55 @@
+*/
+
+html {
+	/* set up a background image */
+
+	background: url('../images/plant_with_hands.jpg');
+
+	/* command shift R in browser */
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+	color: white;
+}
+
+h1 { 
+	font-size: 80px;
+	color: white;
+}
+
+h2 {
+	background: #6EB9EB;
+	color: black;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+a {
+	color: #6EB9EB;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000630;
+}
+
+a:visited {
+	color: #6EB9EB;
+}
+
+
+#container {
+background: black;
+width: 425px;
+padding: 15px;
+}
+
+
+

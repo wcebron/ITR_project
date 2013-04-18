@@ -1,0 +1,11 @@
+
+
+<b><u>Our Users</b></u>
+</br>
+<% @users.each do |user| %>
+	<%= user.first_name %> 
+<% end %>
+</br>
+</br>
+<%= link_to 'Back', root_path %>
+

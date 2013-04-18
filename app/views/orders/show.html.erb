@@ -1,0 +1,29 @@
+
+  <body>
+    <div class="container">
+      <h1>Current Orders</h1>
+    </div>
+
+    	<p>
+      <b>Price:</b>
+  		<%= @order.price %>
+			</p>
+
+			<p>
+  		<b>Product Quantity:</b>
+  		<%= @order.product_quantity %>
+			</p>
+
+			<p>
+  		<b>Product Type:</b>
+  		<%= @order.product_type %>
+			</p>
+		
+			<p>
+  		<b>Shipping Details:</b>
+  		<%= @order.shipping_details %>
+			</p>
+			</br>
+	
+	<%= link_to 'Back', orders_path %>
+  

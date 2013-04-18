@@ -1,0 +1,40 @@
+<p>
+  <b>First name:</b>
+  <%= @user.first_name %>
+</p>
+
+<p>
+  <b>Last name:</b>
+  <%= @user.last_name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @user.email %>
+</p>
+
+<p>
+  <b>Phone number:</b>
+  <%= @user.phone_number %>
+</p>
+
+<p>
+  <b>Shipping address:</b>
+  <%= @user.shipping_address %>
+</p>
+
+<p>
+  <b>Billing address:</b>
+  <%= @user.billing_address %>
+</p>
+
+<p>
+  <b>Reason for inquiry:</b>
+  <%= @user.question %>
+</p>
+
+</br>
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
+
+
